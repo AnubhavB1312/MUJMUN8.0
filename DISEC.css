@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Montserrat|Poppins|Roboto+Condensed&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Baloo+Da+2|Montserrat|Poppins|Roboto+Condensed";
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: -webkit-linear-gradient(left, #380dc4, #ff5a5a);
+}
+
+.DISEC{
+	height: auto;
+	width: 300px;
+	background-color: #fff;
+	position: relative;
+	margin-top: 10%;
+	padding: 55px 10px 20px 10px;
+	text-align: center;
+	transition: 340ms ease;
+	cursor: pointer;
+}
+
+.DISEC img{
+	position: absolute;
+	transform: translate(-50%);
+	top: -50px;
+	height: 97px;
+	width: 97px;
+	left: 50%;
+}
+
+.DISEC h2 {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+.DISEC p {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.DISEC a {
+	font-size: 13px;
+	position: relative;
+	opacity: 0;
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+}
+
+.DISEC:hover > a {
+	left: 90px;
+	opacity: 1;
+	transition: 250ms ease;
+}
+
+.DISEC:hover {
+	transform: scale(1.05);
+	box-shadow: 5px 5px 20px rgba (0, 0, 0, 0.6);
+}
